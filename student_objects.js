@@ -20,7 +20,7 @@ function addStudent(arr) {
   newStud.nome = prompt("Dimmi il nome dello studente: ");
   newStud.cognome = prompt("Dimmi il cognome dello studente: ");
   newStud.età = prompt("Dimmi l'età dello studente: ");
-} while (prompt("Vuoi aggiungere un altro studente") != "no");
+} while (prompt("Vuoi aggiungere un altro studente?") != "no");
   document.getElementById("terzo_task").innerHTML +=  "Terzo task: " + JSON.stringify(arr) + "<br>";
 }
 
