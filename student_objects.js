@@ -1,5 +1,5 @@
 function student() {
-  var stud = {nome: "Mario", cognome: "Rossi", età: 17}
+  var stud = {nome: "Mario", cognome: "Rossi", età: 17};
   for (var field in stud) {
     document.getElementById("primo_task").innerHTML += "Primo task: " + stud[field] + "<br>";
   }
@@ -15,7 +15,7 @@ function nameSurnameStamp(arr) {
 
 function addStudent(arr) {
   do {
-  var newStud = {nome:"", cognome:"", età:0};
+  var newStud = {nome: "", cognome: "", età: 0};
   arr.push(newStud);
   newStud.nome = prompt("Dimmi il nome dello studente: ");
   newStud.cognome = prompt("Dimmi il cognome dello studente: ");
